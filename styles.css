@@ -198,17 +198,9 @@ section h2 {
     color: #ff9900; /* 添加橙色 */
 }
 
-.feature-item {
-    margin-bottom: 40px; /* 添加间距，使每个特色之间的距离更均匀 */
-}
-
-.feature-item h3 {
-    color: #ffcc00; /* 添加黄色 */
-    margin-bottom: 10px;
-}
-
-.feature-item p {
-    color: #cccccc; /* 浅灰色 */
+#features p {
+    color: #cccccc;
+    font-size: 1.2em;
 }
 
 #download {
