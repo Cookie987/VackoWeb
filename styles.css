@@ -133,7 +133,7 @@ nav ul li a:hover {
 
 /* 主横幅 */
 .hero {
-    background: url('path/to/hero-bg.jpg') no-repeat center center/cover;
+    background: url('banner.jpg') no-repeat center center/cover;
     color: #00ff00;
     text-align: center;
     padding: 80px 20px;
@@ -149,13 +149,23 @@ nav ul li a:hover {
 }
 
 .hero h1 {
-    font-size: 30vh; /* 将字体大小设置为占屏幕30% */
+    font-family: 'Roboto', sans-serif; /* 简洁的官方字体 */
+    font-size: 30vh; /* 字体大小 */
     margin: 0;
+    color: #cccccc; /* 柔和的浅灰色 */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* 适度的阴影效果 */
+    letter-spacing: 1px; /* 字母间距适中 */
+    text-transform: uppercase; /* 全部大写，增强正式感 */
+    border-bottom: 3px solid #666666; /* 细致的下划线，与整体配色协调 */
 }
 
 .hero p {
+    font-family: 'Roboto', sans-serif; /* 简洁的官方字体 */
     font-size: 1.5em;
     margin: 10px 0 20px;
+    color: #cccccc; /* 柔和的浅灰色 */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* 适度的阴影效果 */
+    letter-spacing: 1px; /* 字母间距适中 */
 }
 
 .btn {
@@ -225,15 +235,19 @@ section h2 {
     margin-bottom: 20px;
     color: #ff9900;
 }
+#contact p {
+    color: #cccccc;
+    font-size: 1.2em;
+}
 
 #contact a {
-    color: #00ff00;
-    text-decoration: none;
-    font-weight: bold;
+    color: #cccccc;
+    font-size: 1.2em;
 }
 
 #contact a:hover {
-    text-decoration: underline;
+    color: #ff9900; /* 悬停时颜色变为橙色，保持一致 */
+    border-bottom-color: #ff9900; /* 悬停时下划线颜色同步变为橙色 */
 }
 
 /* 页脚 */
